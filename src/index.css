@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: #000;
+    color: #fff;
+}
+
+.card-body {
+    background-color: #FFCC00;
+}
+
+.card-footer {
+    background-color: #FFCC00;
+    border-top: none;
+}
+
+.price {
+    margin: 0;
+}
+
+.price+.price {
+    margin-top: 10px;
+}
+
+.rounded-footer {
+    border-top-left-radius: 0.75rem !important;
+    border-top-right-radius: 0.75rem !important;
+}
+
+.rounded-list {
+    border-bottom-left-radius: 0.75rem !important;
+    border-bottom-right-radius: 0.75rem !important;
+}
+
+
